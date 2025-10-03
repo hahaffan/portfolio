@@ -1,0 +1,25 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #EDE7D8; /* CHANGED from #E3EED4 → muted receipt beige */
+    margin-bottom: 0px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    border-top: 1px dashed rgba(0,0,0,0.2); /* ADDED dashed border for receipt feel */
+}
+
+.name {
+    font-weight: bold;
+    font-size: 32px; 
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    color: #2E2C2F; 
+}
+

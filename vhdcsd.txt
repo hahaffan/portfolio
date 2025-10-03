@@ -1,0 +1,98 @@
+        <div class="box empty2">
+            <div class="page3">
+                <div class="internships">internships</div>
+
+                <div class="work-container">
+                    <!-- CodeDay Lucknow -->
+                    <div class="work-item">
+                        <div class="work-header">
+                            <div>
+                                <div class="company-name">CodeDay Lucknow</div>
+                                <div class="job-role">Team Lead / Social Media Manager</div>
+                            </div>
+                            <div class="date-badge">March 2024 - Present</div>
+                        </div>
+                        <div class="work-description">
+                            <ul>
+                                <li>Organised Lucknow's <span class="highlight">first 24-hour hackathon</span> for high
+                                    school STEM students</li>
+                                <li>Oversaw event logistics, sponsorship deals, F&B management, and coordination with
+                                    <span class="stamp">500+ students</span>
+                                </li>
+                                <li>Achieved <span class="stamp">500,000+ impressions</span> on @codeday_lucknow
+                                    Instagram</li>
+                                <li>Raised over <span class="highlight">$10,000 in funding</span>, getting sponsorships
+                                    from tech giants like GitHub</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- AF Wealth Advisors -->
+                    <div class="work-item">
+                        <div class="work-header">
+                            <div>
+                                <div class="company-name">AF Wealth Advisors</div>
+                                <div class="job-role">Executive-Operation Intern</div>
+                            </div>
+                            <div class="date-badge">Dec 2023 - Feb 2024</div>
+                        </div>
+                        <div class="work-description">
+                            <ul>
+                                <li>Assisted in daily operational tasks, including <span class="highlight">client
+                                        documentation</span> and data entry</li>
+                                <li>Maintained CRM systems to track client interactions and follow-up schedules</li>
+                                <li>Supported KYC verification and compliance-related processes</li>
+                                <li>Collaborated with teams to streamline onboarding and internal workflows</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- GamingOnPhone -->
+                    <div class="work-item">
+                        <div class="work-header">
+                            <div>
+                                <div class="company-name">GamingOnPhone</div>
+                                <div class="job-role">Blogger</div>
+                            </div>
+                            <div class="date-badge">May 2023 - July 2023</div>
+                        </div>
+                        <div class="work-description">
+                            <ul>
+                                <li>Wrote numerous articles on guides, hacks, and daily news headlines in the Gaming
+                                    world</li>
+                                <li>Got over <span class="stamp">200,000 clicks</span> on multiple articles</li>
+                                <li>Conducted in-depth <span class="highlight">gameplay analysis</span> to create
+                                    detailed and informative reviews</li>
+                                <li>Monitored industry trends to deliver fast, accurate coverage of breaking game news
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- JustDial -->
+                    <div class="work-item">
+                        <div class="work-header">
+                            <div>
+                                <div class="company-name">JustDial</div>
+                                <div class="job-role">Telemarketer</div>
+                            </div>
+                            <div class="date-badge">May 2021 - Sep 2021</div>
+                        </div>
+                        <div class="work-description">
+                            <li>
+                                Promoted company packages via telemarketing.
+                            </li>
+                            <li>
+                                Matched customer needs with suitable solutions.
+                            </li>
+                            <li>
+                                Handled objections to close more sales.
+                            </li>
+                            <li>
+                                Built quick rapport to drive results.
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

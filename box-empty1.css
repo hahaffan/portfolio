@@ -1,0 +1,64 @@
+.page2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr;
+    width: 90%;
+    gap: 20px;
+    margin: 24px auto;
+    padding: 20px;
+    background: #FDF6E3;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.projects {
+    position: absolute; 
+    top: 30px; 
+    left: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #2E2C2F;
+}
+
+.squares {
+    position: absolute; 
+    top: 130px;
+    left: 50px;
+}
+
+.squares-name{
+    position: absolute;
+    font-weight: bold;
+    top: 50%; 
+    left: 11.5%;   
+    font-size: 16px;
+    color: #2E2C2F;
+}
+
+.squares-info{
+    position: absolute;
+    line-height: 1.53;
+    top: 17%;
+    left: 30%;
+}
+
+.download{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(224, 82, 82);
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.disappointment{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

@@ -1,9 +1,4 @@
-/* ========================================
-   MOBILE RESPONSIVE MEDIA QUERIES
-   Add this to the end of your CSS files
-   ======================================== */
 
-/* Base fixes for all screen sizes */
 html, body {
     overflow-x: hidden;
     width: 100%;
@@ -22,9 +17,7 @@ html, body {
     overflow-x: hidden;
 }
 
-/* Tablet and smaller devices */
 @media screen and (max-width: 768px) {
-    /* Header adjustments */
     .header {
         height: 70px;
         padding: 0 5px;
@@ -47,7 +40,6 @@ html, body {
         white-space: nowrap;
     }
 
-    /* Container adjustments */
     .container {
         top: 70px;
         padding-bottom: 70px;
@@ -59,7 +51,6 @@ html, body {
         padding: 10px;
     }
 
-    /* Footer adjustments */
     footer {
         height: 70px;
         width: 100%;
@@ -70,7 +61,6 @@ html, body {
         padding: 0 10px;
     }
 
-    /* Page 1 (Introduction) */
     .page {
         width: 100%;
         max-width: calc(100vw - 20px);
@@ -108,7 +98,6 @@ html, body {
         left: 0;
     }
 
-    /* Page 2 (Projects) */
     .page2 {
         width: 100%;
         max-width: calc(100vw - 20px);
@@ -166,7 +155,6 @@ html, body {
         text-align: center;
     }
 
-    /* Page 3 (Internships) */
     .page3 {
         width: 100%;
         max-width: calc(100vw - 20px);
@@ -230,7 +218,6 @@ html, body {
         word-wrap: break-word;
     }
 
-    /* Page 4 (Favorites) */
     .page4 {
         width: 100%;
         max-width: calc(100vw - 20px);
@@ -305,7 +292,6 @@ html, body {
         display: block;
     }
 
-    /* Page 5 (Contact) */
     .page5 {
         width: 100%;
         max-width: calc(100vw - 20px);
@@ -363,9 +349,7 @@ html, body {
     }
 }
 
-/* Mobile phones (portrait) */
 @media screen and (max-width: 480px) {
-    /* Header adjustments */
     .header {
         height: 60px;
         padding: 0 5px;
@@ -386,7 +370,7 @@ html, body {
         right: 8px;
     }
 
-    /* Container adjustments */
+
     .container {
         top: 60px;
         padding-bottom: 60px;
@@ -397,7 +381,6 @@ html, body {
         padding: 5px;
     }
 
-    /* Footer adjustments */
     footer {
         height: 60px;
     }
@@ -406,7 +389,6 @@ html, body {
         font-size: 18px;
     }
 
-    /* Page 1 (Introduction) */
     .page {
         width: 100%;
         max-width: calc(100vw - 10px);
@@ -427,7 +409,6 @@ html, body {
         font-size: 11px;
     }
 
-    /* Page 2 (Projects) */
     .page2 {
         max-width: calc(100vw - 10px);
         padding: 15px 10px;
@@ -459,7 +440,6 @@ html, body {
         padding: 25px 10px;
     }
 
-    /* Page 3 (Internships) */
     .page3 {
         max-width: calc(100vw - 10px);
         padding: 15px 10px;
@@ -487,7 +467,7 @@ html, body {
         padding-left: 18px;
     }
 
-    /* Page 4 (Favorites) */
+
     .page4 {
         max-width: calc(100vw - 10px);
         padding: 15px 10px;
@@ -506,7 +486,6 @@ html, body {
         gap: 8px;
     }
 
-    /* Page 5 (Contact) */
     .page5 {
         max-width: calc(100vw - 10px);
         padding: 15px 10px;
@@ -549,7 +528,6 @@ html, body {
     }
 }
 
-/* Very small phones */
 @media screen and (max-width: 360px) {
     .header {
         height: 55px;

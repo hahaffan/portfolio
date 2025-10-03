@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="box1.css">
+    <link rel="stylesheet" href="box-empty1.css">
+    <link rel="stylesheet" href="box-empty2.css">
+    <link rel="stylesheet" href="box-empty3.css">
+    <link rel="stylesheet" href="box-empty4.css">
+    <link rel="stylesheet" href="media.css">
     <title>Portfolio</title>
 </head>
 
@@ -28,11 +34,11 @@
             </div>
 
             <div class="right-section">
-                <button class="touch">Get in Touch</button>
+                <button class="touch" onclick="location.href='#touch'">Get in Touch</button>
             </div>
-
         </div>
     </header>
+
 
     <div class="container">
 
@@ -48,7 +54,7 @@
                 <div class="receipt-text">
                     <div class="intro">
                         Hey there,
-
+                        <br> <br>
                         I'm <strong>Affan Khan</strong>, a CS student pursuing his degree from <strong>BITS
                             Pilani</strong>.
                         Welcome. Take a look around. Feel free to hit me up and let's work together
@@ -56,27 +62,123 @@
 
                     </div>
 
-                    
-                    <div style="margin-top:18px;">
+
+                    <div class="about">
                         <a class="receipt-link" href="https://hahaffan.github.io" target="_blank">About me</a>
                     </div>
 
 
 
-                    <div style="font-size:12px;color:rgba(0,0,0,0.6);">
-                        Transaction ID: <strong>#AFF202509</strong><br>
-                        Issued: 06/18/2025
+                    <div class="plug">
+                        find me <strong>@hahaffan</strong><br>
+                        on all platform
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <div class="box empty1">
-            <div class="squares">
-                <img class="squares-img" src="squares.png">
+        <div class="box empty2">
+            <div class="page3">
+                <div class="internships">internships</div>
+
+                <div class="work-container">
+                    <!-- CodeDay Lucknow -->
+                    <div class="work-item">
+                        <div class="work-header">
+                            <div>
+                                <div class="company-name">CodeDay Lucknow</div>
+                                <div class="job-role">Team Lead / Social Media Manager</div>
+                            </div>
+                            <div class="date-badge">March 2024 - Present</div>
+                        </div>
+                        <div class="work-description">
+                            <ul>
+                                <li>Organised Lucknow's <span class="highlight">first 24-hour hackathon</span> for high
+                                    school STEM students</li>
+                                <li>Oversaw event logistics, sponsorship deals, F&B management, and coordination with
+                                    <span class="stamp">500+ students</span>
+                                </li>
+                                <li>Achieved <span class="stamp">500,000+ impressions</span> on @codeday_lucknow
+                                    Instagram</li>
+                                <li>Raised over <span class="highlight">$10,000 in funding</span>, getting sponsorships
+                                    from tech giants like GitHub</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- AF Wealth Advisors -->
+                    <div class="work-item">
+                        <div class="work-header">
+                            <div>
+                                <div class="company-name">AF Wealth Advisors</div>
+                                <div class="job-role">Executive-Operation Intern</div>
+                            </div>
+                            <div class="date-badge">Dec 2023 - Feb 2024</div>
+                        </div>
+                        <div class="work-description">
+                            <ul>
+                                <li>Assisted in daily operational tasks, including <span class="highlight">client
+                                        documentation</span> and data entry</li>
+                                <li>Maintained CRM systems to track client interactions and follow-up schedules</li>
+                                <li>Supported KYC verification and compliance-related processes</li>
+                                <li>Collaborated with teams to streamline onboarding and internal workflows</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- GamingOnPhone -->
+                    <div class="work-item">
+                        <div class="work-header">
+                            <div>
+                                <div class="company-name">GamingOnPhone</div>
+                                <div class="job-role">Blogger</div>
+                            </div>
+                            <div class="date-badge">May 2023 - July 2023</div>
+                        </div>
+                        <div class="work-description">
+                            <ul>
+                                <li>Wrote numerous articles on guides, hacks, and daily news headlines in the Gaming
+                                    world</li>
+                                <li>Got over <span class="stamp">200,000 clicks</span> on multiple articles</li>
+                                <li>Conducted in-depth <span class="highlight">gameplay analysis</span> to create
+                                    detailed and informative reviews</li>
+                                <li>Monitored industry trends to deliver fast, accurate coverage of breaking game news
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- JustDial -->
+                    <div class="work-item">
+                        <div class="work-header">
+                            <div>
+                                <div class="company-name">JustDial</div>
+                                <div class="job-role">Telemarketer</div>
+                            </div>
+                            <div class="date-badge">May 2021 - Sep 2021</div>
+                        </div>
+                        <div class="work-description">
+                            <li>
+                                Promoted company packages via telemarketing.
+                            </li>
+                            <li>
+                                Matched customer needs with suitable solutions.
+                            </li>
+                            <li>
+                                Handled objections to close more sales.
+                            </li>
+                            <li>
+                                Built quick rapport to drive results.
+                            </li>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+
+
 
 
         <div class="box two">
@@ -85,10 +187,51 @@
             </div>
         </div>
 
-        <div class="box empty2">
+        <div class="box empty1">
+            <div class="page2">
+                <div class="projects">projects</div>
 
+                <div class="project-container">
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="squares.png" alt="Squares Game">
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-header">
+                                <div class="project-name">squares</div>
+                                <div class="project-tag">Game</div>
+                            </div>
+
+                            <div class="project-description">
+                                Squares: The Ultimate 2D Retro Adventure! Dive into an endless loop of thrilling 2D
+                                gameplay where retro vibes meet dynamic challenges. Customize your journey by choosing
+                                from a roster of quirky characters—BOB, LEO, ZIG, and POP—each ready to tackle obstacles
+                                with style.
+                            </div>
+
+                            <div class="project-features">
+                                <span class="feature-badge">Retro Graphics</span>
+                                <span class="feature-badge">2D Game</span>
+                                <span class="feature-badge">Arcade</span>
+                                <span class="feature-badge">Speed-Run</span>
+                            </div>
+
+                            <div class="project-buttons">
+                                <a href="https://hahaffan.itch.io" target="_blank" class="download-btn">Download on
+                                    itch.io</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coming-soon">
+                    <div class="coming-soon-emoji">🚧</div>
+                    <div class="coming-soon-text">not enough projects :(</div>
+                    <div style="font-size: 14px; color: rgba(46, 44, 47, 0.5);">come back soon</div>
+                </div>
+            </div>
         </div>
-
 
         <div class="box three">
             <div class="image-container">
@@ -96,13 +239,121 @@
             </div>
         </div>
 
-        <div class="box empty3">
 
+        <div class="box empty3">
+            <div class="page4">
+                <div class="fav">favourite</div>
+
+                <div class="favorites-content">
+                    <!-- Albums Section (Left) -->
+                    <div class="section-wrapper">
+                        <div class="section-header">♫ albums</div>
+                        <div class="grid-container">
+                            <div class="album">
+                                <img class="orange" src="images/orange.jpg" alt="Orange Album">
+                            </div>
+                            <div class="album">
+                                <img class="never" src="images/neverenough.jpg" alt="Never Enough Album">
+                            </div>
+                            <div class="album">
+                                <img class="idmthy" src="images/idmthy.jpg" alt="IDMTHY Album">
+                            </div>
+                            <div class="album">
+                                <img class="yatchy" src="images/yatchy.jpg" alt="Yatchy Album">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-wrapper">
+                        <div class="section-header">★ movies</div>
+                        <div class="grid-container">
+                            <div class="movie">
+                                <img src="images/fox.jpg" alt="Movie 1">
+                            </div>
+                            <div class="movie">
+                                <img src="images/diary.jpg" alt="Movie 2">
+                            </div>
+                            <div class="movie">
+                                <img src="images/social.jpg" alt="Movie 3">
+                            </div>
+                            <div class="movie">
+                                <img src="images/kill.jpg" alt="Movie 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box empty4">
+            <div class="page5">
+                <div class="contact-title">get in touch</div>
+
+                <div class="contact-content">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-label">email</div>
+                            <div class="contact-value">
+                                <a href="mailto:hahaffan@gmail.com">hahaffan@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-label">phone</div>
+                            <div class="contact-value">8090069000</div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-label">linkedin</div>
+                            <div class="contact-value">
+                                <a href="https://www.linkedin.com/in/hahaffan/"
+                                    target="_blank">linkedin.com/in/hahaffan</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-label">find me everywhere</div>
+                            <div class="contact-value">@hahaffan</div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://github.com/hahaffan" class="social-badge">GitHub</a>
+                            <a href="https://www.instagram.com/affankhan10_/" class="social-badge">Instagram</a>
+                            <a href="https://letterboxd.com/hahaffan" class="social-badge">LetterBoxd</a>
+                            <a href="https://open.spotify.com/user/31eek7etvogflsfg4ni6do3nca2e?si=6942d6ef4aaa4b79"
+                                class="social-badge">Spotify</a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form" id="touch">
+                        <div class="form-group">
+                            <label class="form-label">your name</label>
+                            <input type="text" class="form-input" placeholder="John Doe">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">your email</label>
+                            <input type="email" class="form-input" placeholder="john@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">message</label>
+                            <textarea class="form-textarea" placeholder="Hey Affan, let's collaborate on..."></textarea>
+                        </div>
+
+                        <a href="https://hahaffan.github.io/portfolio">
+                            <button class="submit-btn">Send Message</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <footer class="footer">
-        <div class="name">affan-khan&#x2a;</div>
+        <div class="name">عفان خان&#x2a;</div>
     </footer>
 </body>
 

@@ -15,6 +15,13 @@
     position: relative;
 }
 
+.flower{
+    position: absolute;
+    width: 100px;
+    top: -76px;
+    left: -20px;
+}
+
 .card {
     position: relative;
     display: flex;

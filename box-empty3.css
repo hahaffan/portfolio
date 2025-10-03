@@ -51,6 +51,7 @@
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
 }
+
 .movie {
     position: relative;
     border-radius: 6px;
@@ -58,10 +59,10 @@
 }
 
 .movie img {
-    width: 65%; 
-    object-fit:cover;
-    transition: transform 0.3s, box-shadow 0.3s; 
-    border-radius: 6px; 
+    width: 65%;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 6px;
 }
 
 .movie:hover img {
@@ -82,9 +83,7 @@
     border-radius: 6px;
 }
 
-.album:hover img{
+.album:hover img {
     transform: scale(1.05);
     transition: transform 0.5s;
 }
-
-

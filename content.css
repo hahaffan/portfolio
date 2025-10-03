@@ -1,9 +1,8 @@
-
-html{
+html {
     scroll-behavior: smooth;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,10 +11,10 @@ html{
 
 body {
     font-family: 'Special Elite', monospace;
-    background-color: #b1ac9f; 
-    color: #2E2C2F; 
+    background-color: #b1ac9f;
+    color: #2E2C2F;
     margin: 0;
-    line-height: 1.45; 
+    line-height: 1.45;
 }
 
 
@@ -48,8 +47,8 @@ body {
 
 .box {
     border-radius: 0px;
-    border-top: 1px dashed rgba(0,0,0,0.2);   
-    border-bottom: 1px dashed rgba(0,0,0,0.2);
+    border-top: 1px dashed rgba(0, 0, 0, 0.2);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
     width: 100%;
     height: calc(100vh - 160px);
     display: flex;
